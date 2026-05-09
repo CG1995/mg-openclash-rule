@@ -1,7 +1,4 @@
-# 内容：美国域名
-# 域名关键字匹配
-# DOMAIN-KEYWORD,usa
-# 域名后缀匹配
-DOMAIN-KEYWORD,behance.net
-DOMAIN-KEYWORD,behance.com
-DOMAIN-KEYWORD,monkrus.ws
+# Personal US-preferred overrides.
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,behance.com
+DOMAIN-SUFFIX,monkrus.ws
