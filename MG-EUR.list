@@ -1,10 +1,7 @@
-# 内容：欧洲域名
-# 域名关键字匹配
-# DOMAIN-KEYWORD,eur
-# 域名后缀匹配
-DOMAIN-KEYWORD,d-and-p.com
-DOMAIN-KEYWORD,architettimiglioreservetto.it
-DOMAIN-KEYWORD,tamschick.com
-DOMAIN-KEYWORD,agencenc.fr
-DOMAIN-KEYWORD,.fr
-DOMAIN-KEYWORD,atelier-brueckner.com
+# Personal Europe-preferred overrides.
+DOMAIN-SUFFIX,d-and-p.com
+DOMAIN-SUFFIX,architettimiglioreservetto.it
+DOMAIN-SUFFIX,tamschick.com
+DOMAIN-SUFFIX,agencenc.fr
+DOMAIN-SUFFIX,fr
+DOMAIN-SUFFIX,atelier-brueckner.com
