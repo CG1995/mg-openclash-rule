@@ -1,8 +1,5 @@
-# 内容：日本域名
-# 域名关键字匹配
-# DOMAIN-KEYWORD,ja
-# 域名后缀匹配
-DOMAIN-KEYWORD,ujidesign.com
-DOMAIN-KEYWORD,nendo.jp
-DOMAIN-KEYWORD,.jp
+# Personal Japan-preferred overrides.
+DOMAIN-SUFFIX,ujidesign.com
+DOMAIN-SUFFIX,nendo.jp
+DOMAIN-SUFFIX,jp
 DOMAIN-KEYWORD,raidrive
