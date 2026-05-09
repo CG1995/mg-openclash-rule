@@ -1,6 +1,3 @@
-# 内容：香港域名自定义
-# 域名关键字匹配
-# DOMAIN-KEYWORD,hk
-# 域名后缀匹配
+# Personal Hong Kong-preferred overrides.
 DOMAIN-KEYWORD,annas-archive
 DOMAIN-KEYWORD,enscape
