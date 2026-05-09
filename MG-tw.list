@@ -1,6 +1,3 @@
-# 内容：台湾域名
-# 域名关键字匹配
-# DOMAIN-KEYWORD,tw
-# 域名后缀匹配
-DOMAIN-KEYWORD,edu.tw
+# Personal Taiwan-preferred overrides.
+DOMAIN-SUFFIX,edu.tw
 DOMAIN-KEYWORD,aiyifan
