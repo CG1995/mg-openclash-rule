@@ -1,3 +1,9 @@
-# Personal Hong Kong-preferred overrides.
+# NAME: MG-HK
+# REPO: https://github.com/CG1995/clash-rule
+# UPDATED: 2026-05-10
+# SOURCE: existing local list + router custom Hong Kong rules
+# Router custom Hong Kong rules appended at the end after dedupe.
+
 DOMAIN-KEYWORD,annas-archive
 DOMAIN-KEYWORD,enscape
+DOMAIN-KEYWORD,aldente
