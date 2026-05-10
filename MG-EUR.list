@@ -1,7 +1,11 @@
-# Personal Europe-preferred overrides.
-DOMAIN-SUFFIX,d-and-p.com
-DOMAIN-SUFFIX,architettimiglioreservetto.it
-DOMAIN-SUFFIX,tamschick.com
-DOMAIN-SUFFIX,agencenc.fr
-DOMAIN-SUFFIX,fr
-DOMAIN-SUFFIX,atelier-brueckner.com
+# NAME: MG-EUR
+# REPO: https://github.com/CG1995/clash-rule
+# UPDATED: 2026-05-10
+# SOURCE: existing local Europe list + syntax cleanup
+
+DOMAIN-KEYWORD,d-and-p.com
+DOMAIN-KEYWORD,architettimiglioreservetto.it
+DOMAIN-KEYWORD,tamschick.com
+DOMAIN-KEYWORD,agencenc.fr
+DOMAIN-KEYWORD,.fr
+DOMAIN-KEYWORD,atelier-brueckner.com
