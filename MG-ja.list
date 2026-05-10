@@ -1,5 +1,33 @@
-# Personal Japan-preferred overrides.
-DOMAIN-SUFFIX,ujidesign.com
-DOMAIN-SUFFIX,nendo.jp
-DOMAIN-SUFFIX,jp
+# NAME: MG-ja
+# REPO: https://github.com/CG1995/clash-rule
+# UPDATED: 2026-05-10
+# SOURCE: existing local list + router custom Japan rules
+# Router custom Japan rules appended at the end after dedupe.
+
+DOMAIN-KEYWORD,ujidesign.com
+DOMAIN-KEYWORD,nendo.jp
+DOMAIN-KEYWORD,.jp
 DOMAIN-KEYWORD,raidrive
+DOMAIN-SUFFIX,comfy.org
+DOMAIN-KEYWORD,lemon8-app
+DOMAIN-KEYWORD,essenza
+DOMAIN-SUFFIX,wandb.ai
+DOMAIN-SUFFIX,xn--eckn5bc8i070ro9yg.jp
+DOMAIN-KEYWORD,freakfabrique
+DOMAIN-KEYWORD,yting
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.net
+DOMAIN-KEYWORD,docker
+DOMAIN-SUFFIX,production.cloudflare.docker.com
+DOMAIN-SUFFIX,dseasb33srnrn.cloudfront.net
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,mb3admin.com
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,fanart.tv
+DOMAIN-KEYWORD,bandwagonhost
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,files.pythonhosted.org
+DOMAIN-KEYWORD,nvidia
+DOMAIN-KEYWORD,upbond
