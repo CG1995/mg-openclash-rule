@@ -1,3 +1,9 @@
-# Personal Taiwan-preferred overrides.
-DOMAIN-SUFFIX,edu.tw
+# NAME: MG-tw
+# REPO: https://github.com/CG1995/clash-rule
+# UPDATED: 2026-05-10
+# SOURCE: existing local list + router custom Taiwan rules
+# Router custom Taiwan rules appended at the end after dedupe.
+
+DOMAIN-KEYWORD,edu.tw
 DOMAIN-KEYWORD,aiyifan
+DOMAIN-SUFFIX,theme.npm.edu.tw
