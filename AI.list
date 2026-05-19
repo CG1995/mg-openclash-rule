@@ -3,7 +3,6 @@
 # UPDATED: 2026-05-10
 # SOURCE: blackmatrix7 OpenAI/Claude/Gemini/Copilot + personal dedupe
 # Covers OpenAI, Claude, Gemini, Copilot and common AI services.
-
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com

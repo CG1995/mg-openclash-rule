@@ -2,7 +2,6 @@
 # REPO: https://github.com/CG1995/clash-rule
 # UPDATED: 2026-05-10
 # SOURCE: existing local proxy rules + syntax cleanup
-
 IP-CIDR,142.171.133.131/32,no-resolve
 IP-CIDR,103.115.43.2/32,no-resolve
 IP-CIDR,104.236.69.0/24,no-resolve

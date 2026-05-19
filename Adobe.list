@@ -2,7 +2,6 @@
 # REPO: https://github.com/CG1995/clash-rule
 # UPDATED: 2026-05-10
 # SOURCE: blackmatrix7 Adobe.list + personal dedupe
-
 DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 DOMAIN-SUFFIX,10xfotolia.com
 DOMAIN-SUFFIX,2o7.net
