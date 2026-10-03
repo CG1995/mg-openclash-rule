@@ -1,53 +1,35 @@
 # mg-openclash-rule
 
-这个仓库只维护我当前正在使用的 OpenClash / Subconverter 配置：
+个人 OpenClash / Subconverter 模板：Clash-MG.ini。共享模板保持 23 个策略组。
 
-- `Clash-MG.ini`
+## 当前策略
 
-它依赖的本地规则文件只有 4 个：
+- USCN2 / USCN2-Reality 进入现有「🐱自选-美国」与「美国-自动」。没有独立 USCN2、CF-M 或 CF-A 组。
+- Adobe 分类在所有业务分类与 FINAL 前，Adobe 组仅可选 REJECT，按用户要求全部拦截。
+- AI 只使用审核过的服务域名及精确依赖主机，不使用整个 ASN、IP 网段、通用关键词或共享平台根域名。
+- 地区组和自动组明确包含 REJECT，空地区拒绝连接，不依赖 empty-fallback。
+- 真正的日本机场节点仍进入「日本-自动」。美国匹配支持 USCN2/USA/边界清晰的 US，不把 AUS 当成美国。
 
-- `AI.list`
-- `Apple.list`
-- `Proxy.list`
-- `Adobe.list`
+## 名单维护
 
-其他分类规则都直接引用 `blackmatrix7/ios_rule_script` 的外链，不再搬运到本地。
+Apple、Adobe 主名单直接引用 blackmatrix7 在线分类源，更新时无需手工复制；其余分类继续用在线源。
 
-## 仓库内容
+| 文件 | 用途 |
+|---|---|
+| AI.list | 严格 AI 分流政策，36 条服务域名/精确主机，按需求审核维护 |
+| Apple.list | 仅 3 条既有 CDN 补充，没有重复 IP 网段 |
+| Adobe.list | 全部 Adobe 拦截的关键词补充，完整主名单在线提供 |
+| Proxy.list | 50 条个人分流需求，与在线 Global 主名单分开 |
+| SOURCES.md | 来源、删改理由和适用范围 |
 
-| File | Purpose |
-| --- | --- |
-| `Clash-MG.ini` | 主配置，定义 ruleset 和策略组 |
-| `AI.list` | 本地 AI 补充规则 |
-| `Apple.list` | 本地 Apple 补充规则 |
-| `Proxy.list` | 本地个人补充规则 |
-| `Adobe.list` | 本地 Adobe 补充规则 |
-| `README.md` | 仓库说明 |
-| `CHANGELOG.md` | 变更记录 |
+本地文件是明确的个人政策补充，已移除旧厂商快照。在线社区名单不等于厂商官方域名全集。客户端沿用现有规则源更新机制，本次未添加路由器自动重启或订阅任务。
 
-## 使用方式
+## 使用与验证
 
-1. 在 OpenClash / Subconverter 中把 `Clash-MG.ini` 作为模板或规则配置使用。
-2. 本地规则通过 GitHub Raw 链接加载：
-   - `https://raw.githubusercontent.com/CG1995/mg-openclash-rule/main/AI.list`
-   - `https://raw.githubusercontent.com/CG1995/mg-openclash-rule/main/Apple.list`
-   - `https://raw.githubusercontent.com/CG1995/mg-openclash-rule/main/Proxy.list`
-   - `https://raw.githubusercontent.com/CG1995/mg-openclash-rule/main/Adobe.list`
-3. 其余规则继续沿用 `blackmatrix7/ios_rule_script` 的在线来源。
+模板地址：`https://raw.githubusercontent.com/CG1995/mg-openclash-rule/refs/heads/main/Clash-MG.ini`。
 
-## 维护原则
+转换器须保留显式 []REJECT。OpenClash 运行配置和自定义规则必须同步，否则旧分组或自定义顺序仍可改变结果。每次检查生成配置、实际匹配日志和空组行为；下载成功不等于所有规则生效。
 
-- 只保留当前实际使用的文件
-- 不把外部维护良好的规则源搬运成本地
-- `.list` 文件只保留必要的个人补充规则
-- 仓库保持小而清晰，避免旧配置和历史文件混入
+R5S 另有固定美国 Claude-USA-Only / Claude-USA-Pinned，保留其最高优先级保护。不要用共享组替换它。账号 ID 与流量历史不因节点改名而改变。
 
-## 变更记录
-
-参见 [CHANGELOG.md](./CHANGELOG.md)。
-
-## USCN2 节点约定
-
-原日本 VPS 已迁至洛杉矶，设备和订阅节点统一为 USCN2（备用入口 USCN2-Reality），归入现有的 🐱自选-美国 和 美国-自动。CF-M、CF-A 及单独的 USCN2 策略组已移除。日本-自动仍用于真正的日本机场节点。
-
-路由器的自定义规则中，原 🐱自选-日本 / 🐱自选-USCN2 对这台 VPS 的引用应同步为 🐱自选-美国。账户 ID 和流量历史保持不变。
+变更记录：[CHANGELOG.md](./CHANGELOG.md)。来源：[SOURCES.md](./SOURCES.md)。

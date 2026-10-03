@@ -1,7 +1,7 @@
-# NAME: Proxy
-# REPO: https://github.com/CG1995/clash-rule
-# UPDATED: 2026-05-10
-# SOURCE: existing local proxy rules + syntax cleanup
+# NAME: Personal proxy routing overrides
+# POLICY-REVIEWED: 2026-10-03
+# Explicit user overrides; maintained Global list is referenced separately.
+# Not a frozen copy of the upstream vendor categories.
 IP-CIDR,142.171.133.131/32,no-resolve
 IP-CIDR,103.115.43.2/32,no-resolve
 IP-CIDR,104.236.69.0/24,no-resolve

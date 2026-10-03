@@ -1,3 +1,12 @@
+# 2026-10-03 规则优化
+
+- Adobe 提至最前，组仅允许 REJECT；删除误归入 Adobe 的 Windows Update / DigiCert 补充。
+- AI 收紧为 36 条服务域名及精确依赖，移除广泛平台、ASN、单 IP 和关键词匹配。
+- Apple / Adobe 主名单改为在线维护源，本地只保留必要补充，移除 Apple 的重复 IP 版本。
+- 美国地区匹配避免 AUS；亚洲组不再含广美，欧洲组不再含智利。
+- 地区组与自动组加入显式 REJECT，避免空组变为 COMPATIBLE 直连。
+- 补充来源说明。本次设备端先实施家中 R5S，其他路由器暂不同步。
+
 # Changelog
 
 All notable changes to this repository are documented here.
