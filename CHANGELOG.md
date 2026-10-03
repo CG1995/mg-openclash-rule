@@ -2,6 +2,12 @@
 
 All notable changes to this repository are documented here.
 
+## 2026-10-03
+
+- 原日本 VPS 迁至洛杉矶后，节点统一为 USCN2 / USCN2-Reality，沿用自选美国组。
+- 移除 CF-M、CF-A 和独立 USCN2 组及所有组引用，去重美国组引用。
+- 其余分类与规则内容暂保持原样，优化建议另行审计后由用户决定。
+
 ## 2026-05-19
 
 ### Changed
