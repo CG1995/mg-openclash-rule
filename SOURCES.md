@@ -18,6 +18,8 @@ OpenAI 服务域名和两条精确 Sentry 主机参考 [OpenAI 网络要求](htt
 
 Gemini API 精确主机参考 [Google API 文档](https://ai.google.dev/api)。Copilot 精确服务域参考 [Microsoft 网络要求](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-copilot-requirements)。这些资料不意味着泛 Microsoft 365、Google API、Bing 或网页静态资源都应该进入 AI 组。
 
+GitHub Copilot 的专属 githubcopilot.com 后缀参考 [GitHub 官方允许列表](https://docs.github.com/en/copilot/reference/copilot-allowlist-reference)。GitHub 网站本身仍由 GitHub 分类处理。
+
 既有 Claude、Meta AI、Perplexity、Poe、Character AI 服务域保留；Claude 另补 claude.com / claudeusercontent.com。R5S 的既有六条 Claude 专用规则继续优先，不受本次严格名单替换影响。
 
 严格分类后，共享支付/验证码/登录依赖可由 Global 或其余规则处理。网站请求成功仍需实际登录验证，不能仅以域名分类或 HTTP 200 保证完整业务流程。
